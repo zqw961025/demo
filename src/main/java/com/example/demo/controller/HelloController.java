@@ -41,7 +41,7 @@ public class HelloController {
         mailSender.send(message);
         return "login";
     }
-    @RequestMapping("email1")
+    @RequestMapping("/email1")
     public String sendSimpleMail1() throws Exception{
         return "login";
     }
